@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test0": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/f43310/fs2022_part4_backend#readme",
   "devDependencies": {
     "eslint": "^8.18.0",
+    "jest": "^28.1.1",
     "nodemon": "^2.0.18"
   },
   "dependencies": {
