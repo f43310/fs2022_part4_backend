@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "lol colin",
+    "author": "colin",
+    "url": "http://wwww.baidu.com",
+    "likes": 3698
+}
