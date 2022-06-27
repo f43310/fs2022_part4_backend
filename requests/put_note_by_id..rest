@@ -1,7 +1,9 @@
-PUT  http://localhost:3001/api/notes/62b46ae6e418673a44806b55
+PUT  http://localhost:3003/api/blogs/62b92d348a61255b77dc7c02
 Content-Type: application/json
 
 {
-    "content": "Postman is a good tool for testing a REST-api",
-    "important": false
+    "title": "Postman is a good tool for testing a REST-api",
+    "author": "wowo",
+    "url": "http://www.google.com",
+    "likes": 78855
 }
